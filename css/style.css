@@ -201,6 +201,11 @@ main .section {
     padding: 50px;
 }
 
+main .section:nth-child(even) {
+    background-color: #d3d3d3;
+}
+
+
 
 
 main .section .row .col-big {
