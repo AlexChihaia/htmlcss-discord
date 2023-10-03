@@ -202,9 +202,6 @@ main .section {
 }
 
 
-main .section:nth-child(even) {
-    background-color: #d3d3d3;
-}
 
 main .section .row .col-big {
 
