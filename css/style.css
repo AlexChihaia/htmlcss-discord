@@ -73,8 +73,9 @@ COMMON
 
 .button {
     padding: 10px;
-    border-radius: 20%;
+    border-radius: 20px;
     margin-left: 25px;
+
 }
 
 .button:hover {
@@ -201,9 +202,17 @@ main .section {
     padding: 50px;
 }
 
-main .section:nth-child(even) {
+
+main .section:nth-child(3),
+main .section:nth-child(7) {
     background-color: #d3d3d3;
+
 }
+
+main .wave:nth-child(even) {
+    color: white;
+}
+
 
 
 
@@ -309,6 +318,7 @@ i {
     font-size: 25px;
     color: white;
     margin-top: 10px;
+    margin-right: 10px;
 }
 
 .white {
@@ -327,4 +337,22 @@ footer hr {
 footer .button.blue {
     font-size: 10px;
     padding: 5px;
+}
+
+.wave {
+    color: #d3d3d3;
+    size-adjust: 2000px 100px;
+
+    opacity: 0.1;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+}
+
+.social ul li {
+    display: inline;
+}
+
+.col ul li {
+    list-style: none;
 }
